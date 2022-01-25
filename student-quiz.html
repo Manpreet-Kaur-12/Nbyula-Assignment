@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Student - Quiz</title>
+    <style>
+        body {
+            font-size: 20px;
+            font-family: sans-serif;
+            color: #333;
+        }
+        
+        .question {
+            font-weight: 600;
+        }
+        
+        .answers {
+            margin-bottom: 20px;
+        }
+        
+        #submit {
+            font-family: sans-serif;
+            font-size: 20px;
+            background-color: #297;
+            color: #fff;
+            border: 0px;
+            border-radius: 3px;
+            padding: 20px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        
+        #submit:hover {
+            background-color: #3a8;
+        }
+        
+        .logoutbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="quiz"></div>
+    <button id="submit">Get Results</button>
+    <div id="results"></div>
+
+    <a href="index.html"><button type="button" class="logoutbtn">Logout</button></a>
+</body>
+<script src="jquery.min.js"></script>
+<script src="quiz-script.js" type="text/javascript"></script>
+
+</html>

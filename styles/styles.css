@@ -1,0 +1,23 @@
+.container {
+    height: 80%;
+    position: relative;
+    border: 3px solid green;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    background-color: red;
+    font: bold 44px Arial;
+    width: 500;
+    height: 250;
+    background-color: green;
+    vertical-align: middle;
+}
